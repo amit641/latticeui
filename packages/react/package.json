@@ -1,7 +1,17 @@
 {
   "name": "@tessera/react",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Tessera React adapter: composable part components and hooks over the framework-agnostic core.",
+  "license": "MIT",
+  "author": "Amit Chowdhary (https://github.com/amit641)",
+  "homepage": "https://amit641.github.io/tessera",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amit641/tessera.git",
+    "directory": "packages/react"
+  },
+  "bugs": "https://github.com/amit641/tessera/issues",
+  "keywords": ["react", "design-system", "components", "ui", "accessibility", "headless", "tessera"],
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -12,13 +22,16 @@
     }
   },
   "files": ["dist"],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsup",
     "test": "vitest run"
   },
   "dependencies": {
     "@floating-ui/react-dom": "^2.1.2",
-    "@tessera/core": "workspace:*"
+    "@tessera/core": "workspace:^"
   },
   "peerDependencies": {
     "react": ">=18",

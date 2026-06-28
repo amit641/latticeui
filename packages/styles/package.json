@@ -1,12 +1,26 @@
 {
   "name": "@tessera/styles",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Tessera zero-runtime CSS recipes. All rules live in @layer tessera and target stable [data-scope][data-part] anatomy attributes.",
+  "license": "MIT",
+  "author": "Amit Chowdhary (https://github.com/amit641)",
+  "homepage": "https://amit641.github.io/tessera",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amit641/tessera.git",
+    "directory": "packages/styles"
+  },
+  "bugs": "https://github.com/amit641/tessera/issues",
+  "keywords": ["design-system", "css", "cascade-layers", "zero-runtime", "tessera"],
   "type": "module",
   "exports": {
     "./index.css": "./src/index.css",
     "./base.css": "./src/base.css",
     "./recipes/*": "./src/recipes/*"
   },
-  "files": ["src"]
+  "files": ["src"],
+  "sideEffects": ["*.css"],
+  "publishConfig": {
+    "access": "public"
+  }
 }

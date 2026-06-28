@@ -43,13 +43,11 @@ tessera/
 └── scripts/                       registry + llms.txt generators
 ```
 
-## Quick start
+## Install
 
 ```bash
-pnpm install
-pnpm build          # builds tokens, core, styles, react, cli, docs via Turborepo
-pnpm test           # runs core + cli + react (unit + a11y) suites
-pnpm --filter docs dev   # docs/playground at http://localhost:4001
+npm install @tessera/react @tessera/styles @tessera/tokens
+# or: pnpm add / yarn add
 ```
 
 Using the components:
@@ -60,6 +58,17 @@ import "@tessera/styles/index.css";
 import { Button, Dialog } from "@tessera/react";
 
 // Theming: <html data-theme="dark"> (default) or "light".
+```
+
+See the [full documentation and live playground](https://amit641.github.io/tessera) for every component, variations, and theming guides.
+
+## Local development
+
+```bash
+pnpm install
+pnpm build          # builds tokens, core, styles, react, cli, docs via Turborepo
+pnpm test           # runs core + cli + react (unit + a11y) suites
+pnpm --filter docs dev   # docs/playground at http://localhost:4001
 ```
 
 ### Overriding anything, without a fight
