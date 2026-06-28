@@ -1,6 +1,6 @@
 {
   "name": "latticeui-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LatticeUI React adapter: composable part components and hooks over the framework-agnostic core.",
   "license": "MIT",
   "author": "Amit Chowdhary (https://github.com/amit641)",

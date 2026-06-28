@@ -1,6 +1,6 @@
 {
   "name": "latticeui-styles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LatticeUI zero-runtime CSS recipes. All rules live in @layer latticeui and target stable [data-scope][data-part] anatomy attributes.",
   "license": "MIT",
   "author": "Amit Chowdhary (https://github.com/amit641)",

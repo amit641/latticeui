@@ -1,6 +1,6 @@
 {
   "name": "latticeui-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LatticeUI framework-agnostic core: state machines, anatomy contracts, and DOM utilities. Zero dependencies.",
   "license": "MIT",
   "author": "Amit Chowdhary (https://github.com/amit641)",

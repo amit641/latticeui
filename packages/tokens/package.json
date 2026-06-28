@@ -1,6 +1,6 @@
 {
   "name": "latticeui-tokens",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LatticeUI design tokens: W3C token JSON compiled to layered CSS variables and typed TS maps",
   "license": "MIT",
   "author": "Amit Chowdhary (https://github.com/amit641)",

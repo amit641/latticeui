@@ -1,6 +1,6 @@
 {
   "name": "latticeui-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LatticeUI CLI: add/eject component source into your repo with a lockfile, and pull upstream updates via 3-way merge.",
   "license": "MIT",
   "author": "Amit Chowdhary (https://github.com/amit641)",
