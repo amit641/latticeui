@@ -1,17 +1,17 @@
 {
-  "name": "@tessera/tokens",
+  "name": "latticeui-tokens",
   "version": "1.0.0",
-  "description": "Tessera design tokens: W3C token JSON compiled to layered CSS variables and typed TS maps",
+  "description": "LatticeUI design tokens: W3C token JSON compiled to layered CSS variables and typed TS maps",
   "license": "MIT",
   "author": "Amit Chowdhary (https://github.com/amit641)",
-  "homepage": "https://amit641.github.io/tessera",
+  "homepage": "https://amit641.github.io/latticeui",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amit641/tessera.git",
+    "url": "git+https://github.com/amit641/latticeui.git",
     "directory": "packages/tokens"
   },
-  "bugs": "https://github.com/amit641/tessera/issues",
-  "keywords": ["design-tokens", "design-system", "css-variables", "theming", "tessera"],
+  "bugs": "https://github.com/amit641/latticeui/issues",
+  "keywords": ["design-tokens", "design-system", "css-variables", "theming", "latticeui"],
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

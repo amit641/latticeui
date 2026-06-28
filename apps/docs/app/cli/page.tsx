@@ -5,27 +5,27 @@ export default function CliPage() {
       <p>
         The unsolved problem in component libraries: npm packages lock you out of internals,
         while copy-paste kits (shadcn-style) hand you the code but cut you off from upstream
-        fixes forever. Tessera&apos;s CLI gives you both.
+        fixes forever. LatticeUI&apos;s CLI gives you both.
       </p>
 
       <h2>1. Eject a component</h2>
       <pre>
-        <code>{`$ tessera add button
+        <code>{`$ latticeui add button
 
-  + tessera-ui/button/button.tsx
-  + tessera-ui/button/button.css
+  + latticeui-ui/button/button.tsx
+  + latticeui-ui/button/button.css
 
-Added button v0.1.0. Runtime deps: @tessera/core, @tessera/tokens.`}</code>
+Added button v0.1.0. Runtime deps: latticeui-core, latticeui-tokens.`}</code>
       </pre>
       <p>
         The source is now yours - edit it like any other file in your repo. Behind the scenes,
-        Tessera records the pristine upstream snapshot in <code>.tessera/base/</code> and pins
-        versions + content hashes in <code>tessera-lock.json</code>.
+        LatticeUI records the pristine upstream snapshot in <code>.latticeui/base/</code> and pins
+        versions + content hashes in <code>latticeui-lock.json</code>.
       </p>
 
       <h2>2. Modify it freely</h2>
       <pre>
-        <code>{`/* tessera-ui/button/button.css - your edit */
+        <code>{`/* latticeui-ui/button/button.css - your edit */
 [data-scope="button"][data-part="root"] {
   height: 2.5rem; /* taller buttons for our brand */
 }`}</code>
@@ -33,14 +33,14 @@ Added button v0.1.0. Runtime deps: @tessera/core, @tessera/tokens.`}</code>
 
       <h2>3. Pull upstream improvements later</h2>
       <pre>
-        <code>{`$ tessera update button
+        <code>{`$ latticeui update button
 
   ~ button.css (merged your changes with upstream)
 
 Updated button to v0.2.0 cleanly.`}</code>
       </pre>
       <p>
-        <code>tessera update</code> runs a 3-way merge per file: base snapshot vs. your copy
+        <code>latticeui update</code> runs a 3-way merge per file: base snapshot vs. your copy
         vs. the new upstream version. Non-overlapping changes merge cleanly; genuine overlaps
         produce git-style conflict markers you resolve in your editor - exactly like a rebase,
         but for vendored UI components.

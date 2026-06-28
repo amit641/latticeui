@@ -2,7 +2,7 @@
   "name": "tabs",
   "displayName": "Tabs",
   "version": "0.1.0",
-  "import": "import { Tabs } from \"@tessera/react\";",
+  "import": "import { Tabs } from \"latticeui\";",
   "description": "WAI-ARIA tabs with roving focus and automatic activation.",
   "anatomy": [
     {

@@ -29,7 +29,7 @@ import {
   Textarea,
   Tooltip,
   useToast,
-} from "@tessera/react";
+} from "latticeui";
 
 interface Variation {
   title: string;
@@ -400,7 +400,7 @@ const accordionVariations: Variation[] = [
           <Accordion.Item value="eject">
             <Accordion.Trigger>Can I own the code?</Accordion.Trigger>
             <Accordion.Content>
-              Yes - tessera add button copies the source into your repo, and tessera update 3-way
+              Yes - latticeui add button copies the source into your repo, and latticeui update 3-way
               merges upstream improvements into your modified copy.
             </Accordion.Content>
           </Accordion.Item>

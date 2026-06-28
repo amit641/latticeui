@@ -1,7 +1,7 @@
 /**
  * The Anatomy Contract.
  *
- * Every Tessera component declares its named parts. Each rendered part carries
+ * Every LatticeUI component declares its named parts. Each rendered part carries
  * `data-scope` (the component) and `data-part` (the part) attributes.
  *
  * These attributes are a VERSIONED PUBLIC API:

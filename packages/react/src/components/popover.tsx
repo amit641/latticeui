@@ -13,7 +13,7 @@ import {
   onOutsidePointerDown,
   popoverAnatomy,
   type DisclosureMachine,
-} from "@tessera/core";
+} from "latticeui-core";
 import { composeRefs, createStrictContext, useExternalState, useLatestRef } from "../utils/hooks";
 import { Portal } from "../utils/portal";
 import { CloseIcon } from "../utils/icons";

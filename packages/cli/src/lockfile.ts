@@ -11,8 +11,8 @@ export interface Lockfile {
   components: Record<string, LockedComponent>;
 }
 
-const LOCKFILE = "tessera-lock.json";
-const BASE_DIR = ".tessera/base";
+const LOCKFILE = "latticeui-lock.json";
+const BASE_DIR = ".latticeui/base";
 
 export function readLockfile(cwd: string): Lockfile {
   const file = join(cwd, LOCKFILE);

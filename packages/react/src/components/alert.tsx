@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { alertAnatomy } from "@tessera/core";
+import { alertAnatomy } from "latticeui-core";
 
 export type AlertType = "info" | "success" | "warning" | "danger";
 

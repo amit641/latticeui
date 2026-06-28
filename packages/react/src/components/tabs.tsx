@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { nextRovingIndex, tabsAnatomy, type NavigationKey } from "@tessera/core";
+import { nextRovingIndex, tabsAnatomy, type NavigationKey } from "latticeui-core";
 import { createStrictContext, useControllableState } from "../utils/hooks";
 
 interface TabsContextValue {

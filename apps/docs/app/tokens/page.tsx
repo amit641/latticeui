@@ -1,4 +1,4 @@
-import { reference, semantic } from "@tessera/tokens";
+import { reference, semantic } from "latticeui-tokens";
 
 const isColor = (path: string) => path.startsWith("color.");
 const toVar = (path: string) => `--ts-${path.replace(/\./g, "-")}`;

@@ -13,7 +13,7 @@ import {
   menuAnatomy,
   onOutsidePointerDown,
   type DisclosureMachine,
-} from "@tessera/core";
+} from "latticeui-core";
 import { createStrictContext, useExternalState, useLatestRef } from "../utils/hooks";
 import { Portal } from "../utils/portal";
 

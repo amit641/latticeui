@@ -1,4 +1,4 @@
-@layer tessera.recipes {
+@layer latticeui.recipes {
   [data-scope="tooltip"][data-part="positioner"] {
     z-index: var(--ts-z-tooltip);
   }
@@ -12,6 +12,6 @@
     font-weight: var(--ts-font-weight-medium);
     max-width: 18rem;
     box-shadow: var(--ts-shadow-sm);
-    animation: tessera-fade-in var(--ts-duration-fast) var(--ts-easing-enter);
+    animation: latticeui-fade-in var(--ts-duration-fast) var(--ts-easing-enter);
   }
 }

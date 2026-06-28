@@ -1,9 +1,9 @@
-@layer tessera.recipes {
+@layer latticeui.recipes {
   [data-scope="skeleton"][data-part="root"] {
     display: block;
     background: var(--ts-bg-muted);
     border-radius: var(--ts-radius-md);
-    animation: tessera-pulse 1.6s var(--ts-easing-standard) infinite;
+    animation: latticeui-pulse 1.6s var(--ts-easing-standard) infinite;
   }
 
   [data-scope="skeleton"][data-part="root"][data-variant="text"] {
@@ -15,7 +15,7 @@
     border-radius: var(--ts-radius-full);
   }
 
-  @keyframes tessera-pulse {
+  @keyframes latticeui-pulse {
     0%,
     100% {
       opacity: 1;

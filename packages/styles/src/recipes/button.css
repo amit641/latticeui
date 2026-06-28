@@ -1,4 +1,4 @@
-@layer tessera.recipes {
+@layer latticeui.recipes {
   [data-scope="button"][data-part="root"] {
     /* Component-tier tokens: override these to retheme buttons locally. */
     --button-bg: var(--ts-accent-default);
@@ -74,10 +74,10 @@
     border-radius: var(--ts-radius-full);
     border: 2px solid currentColor;
     border-top-color: transparent;
-    animation: tessera-spin 0.7s linear infinite;
+    animation: latticeui-spin 0.7s linear infinite;
   }
 
-  @keyframes tessera-spin {
+  @keyframes latticeui-spin {
     to {
       transform: rotate(360deg);
     }

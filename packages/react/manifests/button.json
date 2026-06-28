@@ -2,7 +2,7 @@
   "name": "button",
   "displayName": "Button",
   "version": "0.1.0",
-  "import": "import { Button } from \"@tessera/react\";",
+  "import": "import { Button } from \"latticeui\";",
   "description": "Action button with variants, sizes, and a loading state that preserves width and sets aria-busy.",
   "anatomy": [
     {

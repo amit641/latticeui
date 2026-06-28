@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { textFieldAnatomy } from "@tessera/core";
+import { textFieldAnatomy } from "latticeui-core";
 
 export interface TextFieldProps
   extends Omit<React.InputHTMLAttributes<HTMLInputElement>, "size"> {

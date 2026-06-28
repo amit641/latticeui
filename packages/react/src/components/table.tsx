@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { tableAnatomy } from "@tessera/core";
+import { tableAnatomy } from "latticeui-core";
 
 export interface TableRootProps extends React.HTMLAttributes<HTMLDivElement> {
   /** Zebra-stripes the body rows. */

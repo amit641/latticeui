@@ -3,7 +3,7 @@
   "displayName": "Spinner",
   "version": "0.1.0",
   "category": "feedback",
-  "import": "import { Spinner } from \"@tessera/react\";",
+  "import": "import { Spinner } from \"latticeui\";",
   "description": "Indeterminate loading indicator with an accessible label.",
   "anatomy": [
     {

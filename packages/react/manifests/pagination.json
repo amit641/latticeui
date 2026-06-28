@@ -3,8 +3,8 @@
   "displayName": "Pagination",
   "version": "0.1.0",
   "category": "navigation",
-  "import": "import { Pagination } from \"@tessera/react\";",
-  "description": "Page navigation with sibling windows and ellipsis collapsing (logic lives in @tessera/core).",
+  "import": "import { Pagination } from \"latticeui\";",
+  "description": "Page navigation with sibling windows and ellipsis collapsing (logic lives in latticeui-core).",
   "anatomy": [
     {
       "part": "root",

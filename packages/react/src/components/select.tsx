@@ -7,7 +7,7 @@ import {
   selectAnatomy,
   type SelectItem,
   type SelectStore,
-} from "@tessera/core";
+} from "latticeui-core";
 import { useExternalState, useLatestRef } from "../utils/hooks";
 import { Portal } from "../utils/portal";
 import { CheckIcon, ChevronDownIcon } from "../utils/icons";

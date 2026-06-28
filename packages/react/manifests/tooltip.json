@@ -2,7 +2,7 @@
   "name": "tooltip",
   "displayName": "Tooltip",
   "version": "0.1.0",
-  "import": "import { Tooltip } from \"@tessera/react\";",
+  "import": "import { Tooltip } from \"latticeui\";",
   "description": "Hover/focus tooltip with hover-intent delays driven by a four-state core machine (no flicker on quick re-entry).",
   "anatomy": [
     {

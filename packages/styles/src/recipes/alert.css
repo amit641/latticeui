@@ -1,4 +1,4 @@
-@layer tessera.recipes {
+@layer latticeui.recipes {
   [data-scope="alert"][data-part="root"] {
     --alert-accent: var(--ts-accent-default);
     --alert-bg: var(--ts-accent-subtle);

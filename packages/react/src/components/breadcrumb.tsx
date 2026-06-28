@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { breadcrumbAnatomy } from "@tessera/core";
+import { breadcrumbAnatomy } from "latticeui-core";
 
 export interface BreadcrumbItem {
   label: string;

@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { switchAnatomy } from "@tessera/core";
+import { switchAnatomy } from "latticeui-core";
 import { useControllableState } from "../utils/hooks";
 
 export interface SwitchProps {

@@ -1,4 +1,4 @@
-@layer tessera.recipes {
+@layer latticeui.recipes {
   [data-scope="avatar"][data-part="root"] {
     --avatar-size: 2.5rem;
 

@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { textareaAnatomy } from "@tessera/core";
+import { textareaAnatomy } from "latticeui-core";
 
 export interface TextareaProps extends React.TextareaHTMLAttributes<HTMLTextAreaElement> {
   label: string;

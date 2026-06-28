@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { cardAnatomy } from "@tessera/core";
+import { cardAnatomy } from "latticeui-core";
 
 export interface CardRootProps extends React.HTMLAttributes<HTMLDivElement> {
   /** Adds hover affordance for clickable/linkable cards. */

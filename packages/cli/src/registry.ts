@@ -26,10 +26,10 @@ export interface RegistryIndexEntry {
 
 /**
  * Resolves the registry directory. In a published CLI this would be a URL;
- * locally it's the monorepo's registry/ folder (or TESSERA_REGISTRY).
+ * locally it's the monorepo's registry/ folder (or LATTICEUI_REGISTRY).
  */
 function registryDir(): string {
-  if (process.env.TESSERA_REGISTRY) return process.env.TESSERA_REGISTRY;
+  if (process.env.LATTICEUI_REGISTRY) return process.env.LATTICEUI_REGISTRY;
   // Walk up from the CLI package to the monorepo root.
   let dir = dirname(fileURLToPath(import.meta.url));
   for (let i = 0; i < 6; i++) {
@@ -38,7 +38,7 @@ function registryDir(): string {
     dir = dirname(dir);
   }
   throw new Error(
-    "Could not locate the Tessera registry. Set TESSERA_REGISTRY to the registry directory."
+    "Could not locate the LatticeUI registry. Set LATTICEUI_REGISTRY to the registry directory."
   );
 }
 
@@ -49,7 +49,7 @@ export function readIndex(): RegistryIndexEntry[] {
 export function readEntry(name: string): RegistryEntry {
   const file = join(registryDir(), "components", `${name}.json`);
   if (!existsSync(file)) {
-    throw new Error(`Unknown component "${name}". Run \`tessera list\` to see what's available.`);
+    throw new Error(`Unknown component "${name}". Run \`latticeui list\` to see what's available.`);
   }
   return JSON.parse(readFileSync(file, "utf8"));
 }

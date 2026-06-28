@@ -1,20 +1,20 @@
 {
-  "name": "@tessera/cli",
+  "name": "latticeui-cli",
   "version": "1.0.0",
-  "description": "Tessera CLI: add/eject component source into your repo with a lockfile, and pull upstream updates via 3-way merge.",
+  "description": "LatticeUI CLI: add/eject component source into your repo with a lockfile, and pull upstream updates via 3-way merge.",
   "license": "MIT",
   "author": "Amit Chowdhary (https://github.com/amit641)",
-  "homepage": "https://amit641.github.io/tessera",
+  "homepage": "https://amit641.github.io/latticeui",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amit641/tessera.git",
+    "url": "git+https://github.com/amit641/latticeui.git",
     "directory": "packages/cli"
   },
-  "bugs": "https://github.com/amit641/tessera/issues",
-  "keywords": ["cli", "design-system", "scaffolding", "codegen", "tessera"],
+  "bugs": "https://github.com/amit641/latticeui/issues",
+  "keywords": ["cli", "design-system", "scaffolding", "codegen", "latticeui"],
   "type": "module",
   "bin": {
-    "tessera": "./dist/index.js"
+    "latticeui": "./dist/index.js"
   },
   "files": ["dist"],
   "publishConfig": {

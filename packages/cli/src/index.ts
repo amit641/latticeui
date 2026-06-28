@@ -17,9 +17,9 @@ const sha = (content: string) => createHash("sha256").update(content).digest("he
 
 const program = new Command();
 program
-  .name("tessera")
+  .name("latticeui")
   .description(
-    "Tessera CLI - eject component source into your repo and keep an upgrade path via 3-way merges."
+    "LatticeUI CLI - eject component source into your repo and keep an upgrade path via 3-way merges."
   )
   .version("0.1.0");
 
@@ -28,7 +28,7 @@ program
   .description("List components available in the registry")
   .action(() => {
     const index = readIndex();
-    console.log(pc.bold(`\nTessera registry (${index.length} components)\n`));
+    console.log(pc.bold(`\nLatticeUI registry (${index.length} components)\n`));
     for (const entry of index) {
       console.log(`  ${pc.cyan(entry.name.padEnd(14))} v${entry.version}  ${pc.dim(entry.description)}`);
     }
@@ -38,7 +38,7 @@ program
 program
   .command("add")
   .argument("<component>", "component name, e.g. button")
-  .option("-d, --dir <dir>", "target directory", "tessera-ui")
+  .option("-d, --dir <dir>", "target directory", "latticeui-ui")
   .description("Copy a component's source into your repo (ejected, you own it)")
   .action((name: string, options: { dir: string }) => {
     const cwd = process.cwd();
@@ -46,7 +46,7 @@ program
     const lockfile = readLockfile(cwd);
 
     if (lockfile.components[name]) {
-      console.error(pc.red(`"${name}" is already added. Use \`tessera update ${name}\` instead.`));
+      console.error(pc.red(`"${name}" is already added. Use \`latticeui update ${name}\` instead.`));
       process.exitCode = 1;
       return;
     }
@@ -72,7 +72,7 @@ program
     console.log(
       pc.bold(`\nAdded ${name} v${entry.version}.`) +
         pc.dim(` Runtime deps: ${entry.dependencies.join(", ")}.`) +
-        pc.dim(`\nEdit freely - \`tessera update ${name}\` will 3-way merge upstream changes.\n`)
+        pc.dim(`\nEdit freely - \`latticeui update ${name}\` will 3-way merge upstream changes.\n`)
     );
   });
 
@@ -87,7 +87,7 @@ program
     const locked = lockfile.components[name];
 
     if (!locked) {
-      console.error(pc.red(`"${name}" is not in tessera-lock.json. Run \`tessera add ${name}\` first.`));
+      console.error(pc.red(`"${name}" is not in latticeui-lock.json. Run \`latticeui add ${name}\` first.`));
       process.exitCode = 1;
       return;
     }

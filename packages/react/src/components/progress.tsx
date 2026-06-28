@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { progressAnatomy } from "@tessera/core";
+import { progressAnatomy } from "latticeui-core";
 
 export interface ProgressProps extends React.HTMLAttributes<HTMLDivElement> {
   label?: string;

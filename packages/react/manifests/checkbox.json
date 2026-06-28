@@ -2,7 +2,7 @@
   "name": "checkbox",
   "displayName": "Checkbox",
   "version": "0.1.0",
-  "import": "import { Checkbox } from \"@tessera/react\";",
+  "import": "import { Checkbox } from \"latticeui\";",
   "description": "Checkbox built on a visually-hidden native input: native form submission and accessibility for free.",
   "anatomy": [
     {

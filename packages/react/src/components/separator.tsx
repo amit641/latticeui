@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { separatorAnatomy } from "@tessera/core";
+import { separatorAnatomy } from "latticeui-core";
 
 export interface SeparatorProps extends React.HTMLAttributes<HTMLDivElement> {
   orientation?: "horizontal" | "vertical";

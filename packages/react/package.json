@@ -1,17 +1,17 @@
 {
-  "name": "@tessera/react",
+  "name": "latticeui",
   "version": "1.0.0",
-  "description": "Tessera React adapter: composable part components and hooks over the framework-agnostic core.",
+  "description": "LatticeUI React adapter: composable part components and hooks over the framework-agnostic core.",
   "license": "MIT",
   "author": "Amit Chowdhary (https://github.com/amit641)",
-  "homepage": "https://amit641.github.io/tessera",
+  "homepage": "https://amit641.github.io/latticeui",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amit641/tessera.git",
+    "url": "git+https://github.com/amit641/latticeui.git",
     "directory": "packages/react"
   },
-  "bugs": "https://github.com/amit641/tessera/issues",
-  "keywords": ["react", "design-system", "components", "ui", "accessibility", "headless", "tessera"],
+  "bugs": "https://github.com/amit641/latticeui/issues",
+  "keywords": ["react", "design-system", "components", "ui", "accessibility", "headless", "latticeui"],
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@floating-ui/react-dom": "^2.1.2",
-    "@tessera/core": "workspace:^"
+    "latticeui-core": "workspace:^"
   },
   "peerDependencies": {
     "react": ">=18",

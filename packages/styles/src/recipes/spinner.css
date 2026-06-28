@@ -1,4 +1,4 @@
-@layer tessera.recipes {
+@layer latticeui.recipes {
   [data-scope="spinner"][data-part="root"] {
     --spinner-size: 1.25rem;
 
@@ -8,7 +8,7 @@
     border-radius: var(--ts-radius-full);
     border: 2px solid var(--ts-border-muted);
     border-top-color: var(--ts-accent-default);
-    animation: tessera-spin 0.7s linear infinite;
+    animation: latticeui-spin 0.7s linear infinite;
     flex-shrink: 0;
   }
 

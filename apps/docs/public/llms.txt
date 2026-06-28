@@ -1,13 +1,13 @@
-# Tessera Design System
+# LatticeUI Design System
 
-> Tessera is a token-first, zero-runtime-CSS design system with a framework-agnostic
+> LatticeUI is a token-first, zero-runtime-CSS design system with a framework-agnostic
 > core. Styling targets stable [data-scope][data-part] anatomy attributes (a versioned
-> public API). All CSS lives in `@layer tessera`, so plain application CSS always wins.
+> public API). All CSS lives in `@layer latticeui`, so plain application CSS always wins.
 
 Setup:
 ```tsx
-import "@tessera/tokens/tokens.css";
-import "@tessera/styles/index.css";
+import "latticeui-tokens/tokens.css";
+import "latticeui-styles/index.css";
 // Theming: <html data-theme="dark"> or "light". Dark is the default.
 ```
 
@@ -17,7 +17,7 @@ Components (28):
 
 Disclosure list with single or multiple open items.
 
-Import: `import { Accordion } from "@tessera/react";`
+Import: `import { Accordion } from "latticeui";`
 
 Anatomy parts (stable selectors): root, item, header, trigger, indicator, content
 
@@ -45,7 +45,7 @@ Example:
 
 Inline callout for contextual feedback; danger/warning announce assertively via role=alert.
 
-Import: `import { Alert } from "@tessera/react";`
+Import: `import { Alert } from "latticeui";`
 
 Anatomy parts (stable selectors): root, icon, title, description
 
@@ -64,7 +64,7 @@ Example:
 
 Image avatar with automatic initials fallback when the image is missing or fails to load.
 
-Import: `import { Avatar } from "@tessera/react";`
+Import: `import { Avatar } from "latticeui";`
 
 Anatomy parts (stable selectors): root, image, fallback
 
@@ -82,7 +82,7 @@ Example:
 
 Compact status label with tone and variant axes.
 
-Import: `import { Badge } from "@tessera/react";`
+Import: `import { Badge } from "latticeui";`
 
 Anatomy parts (stable selectors): root
 
@@ -99,7 +99,7 @@ Example:
 
 Navigation trail; the last item is marked aria-current=page automatically.
 
-Import: `import { Breadcrumb } from "@tessera/react";`
+Import: `import { Breadcrumb } from "latticeui";`
 
 Anatomy parts (stable selectors): root, list, item, link, separator
 
@@ -116,7 +116,7 @@ Example:
 
 Action button with variants, sizes, and a loading state that preserves width and sets aria-busy.
 
-Import: `import { Button } from "@tessera/react";`
+Import: `import { Button } from "latticeui";`
 
 Anatomy parts (stable selectors): root, spinner, label
 
@@ -138,7 +138,7 @@ Example:
 
 Composable surface: Root, Header, Title, Description, Content, Footer parts.
 
-Import: `import { Card } from "@tessera/react";`
+Import: `import { Card } from "latticeui";`
 
 Anatomy parts (stable selectors): root, header, title, description, content, footer
 
@@ -161,7 +161,7 @@ Example:
 
 Checkbox built on a visually-hidden native input: native form submission and accessibility for free.
 
-Import: `import { Checkbox } from "@tessera/react";`
+Import: `import { Checkbox } from "latticeui";`
 
 Anatomy parts (stable selectors): root, control, indicator, label
 
@@ -185,7 +185,7 @@ Example:
 
 Modal dialog driven by a core state machine; focus trap, scroll lock, Escape and backdrop dismissal handled automatically.
 
-Import: `import { Dialog, useDialog } from "@tessera/react";`
+Import: `import { Dialog, useDialog } from "latticeui";`
 
 Anatomy parts (stable selectors): trigger, backdrop, positioner, content, title, description, close
 
@@ -214,7 +214,7 @@ Example:
 
 Keyboard key cap for shortcuts in docs and menus.
 
-Import: `import { Kbd } from "@tessera/react";`
+Import: `import { Kbd } from "latticeui";`
 
 Anatomy parts (stable selectors): root
 
@@ -230,7 +230,7 @@ Example:
 
 Dropdown action menu (WAI-ARIA menu pattern): roving focus, Home/End, Escape, outside-click dismissal.
 
-Import: `import { Menu } from "@tessera/react";`
+Import: `import { Menu } from "latticeui";`
 
 Anatomy parts (stable selectors): trigger, positioner, content, item, separator, groupLabel
 
@@ -260,9 +260,9 @@ Example:
 
 ## Pagination (v0.1.0)
 
-Page navigation with sibling windows and ellipsis collapsing (logic lives in @tessera/core).
+Page navigation with sibling windows and ellipsis collapsing (logic lives in latticeui-core).
 
-Import: `import { Pagination } from "@tessera/react";`
+Import: `import { Pagination } from "latticeui";`
 
 Anatomy parts (stable selectors): root, list, item, ellipsis, prev, next
 
@@ -281,7 +281,7 @@ Example:
 
 Non-modal floating panel anchored to its trigger (floating-ui positioning with flip/shift).
 
-Import: `import { Popover } from "@tessera/react";`
+Import: `import { Popover } from "latticeui";`
 
 Anatomy parts (stable selectors): trigger, positioner, content, title, arrow, close
 
@@ -308,7 +308,7 @@ Example:
 
 Determinate or indeterminate progress bar with full progressbar semantics.
 
-Import: `import { Progress } from "@tessera/react";`
+Import: `import { Progress } from "latticeui";`
 
 Anatomy parts (stable selectors): root, label, valueText, track, fill
 
@@ -327,7 +327,7 @@ Example:
 
 Compound radio group built on native radio inputs (arrow-key navigation comes from the browser).
 
-Import: `import { RadioGroup } from "@tessera/react";`
+Import: `import { RadioGroup } from "latticeui";`
 
 Anatomy parts (stable selectors): root, label, item, control, indicator, itemLabel
 
@@ -355,7 +355,7 @@ Example:
 
 Single-select listbox (combobox pattern): typeahead, disabled-item skipping, keyboard navigation, anchored positioning.
 
-Import: `import { Select } from "@tessera/react";`
+Import: `import { Select } from "latticeui";`
 
 Anatomy parts (stable selectors): root, label, trigger, value, indicator, positioner, content, item, itemText, itemIndicator
 
@@ -383,7 +383,7 @@ Example:
 
 Horizontal or vertical rule with proper separator semantics.
 
-Import: `import { Separator } from "@tessera/react";`
+Import: `import { Separator } from "latticeui";`
 
 Anatomy parts (stable selectors): root
 
@@ -400,7 +400,7 @@ Example:
 
 Loading placeholder with text/circle/rect variants and reduced-motion support.
 
-Import: `import { Skeleton } from "@tessera/react";`
+Import: `import { Skeleton } from "latticeui";`
 
 Anatomy parts (stable selectors): root
 
@@ -417,7 +417,7 @@ Example:
 
 Single-value slider on a native range input: browser-grade keyboard, touch, and a11y.
 
-Import: `import { Slider } from "@tessera/react";`
+Import: `import { Slider } from "latticeui";`
 
 Anatomy parts (stable selectors): root, label, valueText, control
 
@@ -441,7 +441,7 @@ Example:
 
 Indeterminate loading indicator with an accessible label.
 
-Import: `import { Spinner } from "@tessera/react";`
+Import: `import { Spinner } from "latticeui";`
 
 Anatomy parts (stable selectors): root
 
@@ -458,7 +458,7 @@ Example:
 
 On/off toggle backed by a native role=switch input.
 
-Import: `import { Switch } from "@tessera/react";`
+Import: `import { Switch } from "latticeui";`
 
 Anatomy parts (stable selectors): root, control, thumb, label
 
@@ -482,7 +482,7 @@ Example:
 
 Composable data table: Root (scroll container), Header, Body, Row, Head, Cell, Caption.
 
-Import: `import { Table } from "@tessera/react";`
+Import: `import { Table } from "latticeui";`
 
 Anatomy parts (stable selectors): root, table, caption, header, body, row, head, cell
 
@@ -506,7 +506,7 @@ Example:
 
 WAI-ARIA tabs with roving focus and automatic activation.
 
-Import: `import { Tabs } from "@tessera/react";`
+Import: `import { Tabs } from "latticeui";`
 
 Anatomy parts (stable selectors): root, list, trigger, content
 
@@ -536,7 +536,7 @@ Example:
 
 Chip for filters and selections, optionally dismissible.
 
-Import: `import { Tag } from "@tessera/react";`
+Import: `import { Tag } from "latticeui";`
 
 Anatomy parts (stable selectors): root, label, close
 
@@ -556,7 +556,7 @@ Example:
 
 Labeled text input with description and error messaging, all wired with aria-describedby automatically.
 
-Import: `import { TextField } from "@tessera/react";`
+Import: `import { TextField } from "latticeui";`
 
 Anatomy parts (stable selectors): root, label, input, description, error
 
@@ -575,7 +575,7 @@ Example:
 
 Multi-line text input with label, description, and error wiring (mirrors TextField).
 
-Import: `import { Textarea } from "@tessera/react";`
+Import: `import { Textarea } from "latticeui";`
 
 Anatomy parts (stable selectors): root, label, input, description, error
 
@@ -594,7 +594,7 @@ Example:
 
 Imperative notifications backed by a framework-agnostic queue with auto-dismiss, hover pause/resume, and a visible-toast cap.
 
-Import: `import { ToastProvider, useToast } from "@tessera/react";`
+Import: `import { ToastProvider, useToast } from "latticeui";`
 
 Anatomy parts (stable selectors): viewport, root, title, description, close
 
@@ -614,7 +614,7 @@ toast({ title: "Saved", type: "success" });
 
 Hover/focus tooltip with hover-intent delays driven by a four-state core machine (no flicker on quick re-entry).
 
-Import: `import { Tooltip } from "@tessera/react";`
+Import: `import { Tooltip } from "latticeui";`
 
 Anatomy parts (stable selectors): trigger, positioner, content, arrow
 

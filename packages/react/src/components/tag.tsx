@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { tagAnatomy } from "@tessera/core";
+import { tagAnatomy } from "latticeui-core";
 import { CloseIcon } from "../utils/icons";
 
 export interface TagProps extends React.HTMLAttributes<HTMLSpanElement> {

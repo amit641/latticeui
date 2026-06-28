@@ -1,4 +1,4 @@
-@layer tessera.recipes {
+@layer latticeui.recipes {
   [data-scope="breadcrumb"][data-part="list"] {
     display: flex;
     align-items: center;

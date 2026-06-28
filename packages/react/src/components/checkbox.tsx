@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { checkboxAnatomy } from "@tessera/core";
+import { checkboxAnatomy } from "latticeui-core";
 import { useControllableState } from "../utils/hooks";
 import { CheckIcon } from "../utils/icons";
 

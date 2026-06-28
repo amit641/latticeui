@@ -1,14 +1,14 @@
 /*
- * Tessera base layer.
+ * LatticeUI base layer.
  *
  * Layer order contract: tokens < base < recipes — and ALL of it sits in the
- * `tessera` parent layer. Unlayered application CSS always beats layered CSS,
- * so user overrides win against Tessera without specificity hacks or !important.
+ * `latticeui` parent layer. Unlayered application CSS always beats layered CSS,
+ * so user overrides win against LatticeUI without specificity hacks or !important.
  */
-@layer tessera.tokens, tessera.base, tessera.recipes;
+@layer latticeui.tokens, latticeui.base, latticeui.recipes;
 
-@layer tessera.base {
-  /* Scoped box-model reset: applies only inside Tessera components. */
+@layer latticeui.base {
+  /* Scoped box-model reset: applies only inside LatticeUI components. */
   [data-scope],
   [data-scope] *,
   [data-scope]::before,

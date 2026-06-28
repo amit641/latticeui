@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { Switch } from "@tessera/react";
+import { Switch } from "latticeui";
 
 export function ThemeSwitcher() {
   const [light, setLight] = React.useState(false);
@@ -13,7 +13,7 @@ export function ThemeSwitcher() {
     setLight(checked);
     const theme = checked ? "light" : "dark";
     document.documentElement.dataset.theme = theme;
-    localStorage.setItem("tessera-theme", theme);
+    localStorage.setItem("latticeui-theme", theme);
   }
 
   return <Switch label="Light" checked={light} onCheckedChange={onChange} />;

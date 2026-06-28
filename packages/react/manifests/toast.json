@@ -2,7 +2,7 @@
   "name": "toast",
   "displayName": "Toast",
   "version": "0.1.0",
-  "import": "import { ToastProvider, useToast } from \"@tessera/react\";",
+  "import": "import { ToastProvider, useToast } from \"latticeui\";",
   "description": "Imperative notifications backed by a framework-agnostic queue with auto-dismiss, hover pause/resume, and a visible-toast cap.",
   "anatomy": [
     {

@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { avatarAnatomy } from "@tessera/core";
+import { avatarAnatomy } from "latticeui-core";
 
 export interface AvatarProps extends React.HTMLAttributes<HTMLSpanElement> {
   /** Image URL. Falls back to initials when missing or failed to load. */

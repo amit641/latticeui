@@ -8,7 +8,7 @@ import {
   useFloating,
   type Placement,
 } from "@floating-ui/react-dom";
-import { createTooltipMachine, tooltipAnatomy, type TooltipMachine } from "@tessera/core";
+import { createTooltipMachine, tooltipAnatomy, type TooltipMachine } from "latticeui-core";
 import { createStrictContext, useExternalState } from "../utils/hooks";
 import { Portal } from "../utils/portal";
 

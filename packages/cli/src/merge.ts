@@ -27,7 +27,7 @@ export function threeWayMerge(local: string, base: string, upstream: string): Me
       lines.push(...region.conflict.a);
       lines.push("=======");
       lines.push(...region.conflict.b);
-      lines.push(">>>>>>> upstream (tessera update)");
+      lines.push(">>>>>>> upstream (latticeui update)");
     }
   }
   return { content: lines.join("\n"), conflicts };

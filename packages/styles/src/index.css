@@ -1,4 +1,4 @@
-/* Tessera styles: import this once, after @tessera/tokens/tokens.css. */
+/* LatticeUI styles: import this once, after latticeui-tokens/tokens.css. */
 @import "./base.css";
 @import "./recipes/button.css";
 @import "./recipes/text-field.css";

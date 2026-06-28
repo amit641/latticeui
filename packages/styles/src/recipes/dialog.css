@@ -1,10 +1,10 @@
-@layer tessera.recipes {
+@layer latticeui.recipes {
   [data-scope="dialog"][data-part="backdrop"] {
     position: fixed;
     inset: 0;
     z-index: var(--ts-z-overlay);
     background: var(--ts-backdrop-color);
-    animation: tessera-fade-in var(--ts-duration-normal) var(--ts-easing-enter);
+    animation: latticeui-fade-in var(--ts-duration-normal) var(--ts-easing-enter);
   }
 
   [data-scope="dialog"][data-part="positioner"] {
@@ -31,7 +31,7 @@
     border-radius: var(--ts-radius-xl);
     box-shadow: var(--ts-shadow-lg);
     padding: var(--ts-space-6);
-    animation: tessera-pop-in var(--ts-duration-normal) var(--ts-easing-enter);
+    animation: latticeui-pop-in var(--ts-duration-normal) var(--ts-easing-enter);
   }
 
   [data-scope="dialog"][data-part="title"] {
@@ -66,13 +66,13 @@
     color: var(--ts-fg-default);
   }
 
-  @keyframes tessera-fade-in {
+  @keyframes latticeui-fade-in {
     from {
       opacity: 0;
     }
   }
 
-  @keyframes tessera-pop-in {
+  @keyframes latticeui-pop-in {
     from {
       opacity: 0;
       transform: translateY(8px) scale(0.97);

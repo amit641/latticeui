@@ -1,17 +1,17 @@
 {
-  "name": "@tessera/styles",
+  "name": "latticeui-styles",
   "version": "1.0.0",
-  "description": "Tessera zero-runtime CSS recipes. All rules live in @layer tessera and target stable [data-scope][data-part] anatomy attributes.",
+  "description": "LatticeUI zero-runtime CSS recipes. All rules live in @layer latticeui and target stable [data-scope][data-part] anatomy attributes.",
   "license": "MIT",
   "author": "Amit Chowdhary (https://github.com/amit641)",
-  "homepage": "https://amit641.github.io/tessera",
+  "homepage": "https://amit641.github.io/latticeui",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amit641/tessera.git",
+    "url": "git+https://github.com/amit641/latticeui.git",
     "directory": "packages/styles"
   },
-  "bugs": "https://github.com/amit641/tessera/issues",
-  "keywords": ["design-system", "css", "cascade-layers", "zero-runtime", "tessera"],
+  "bugs": "https://github.com/amit641/latticeui/issues",
+  "keywords": ["design-system", "css", "cascade-layers", "zero-runtime", "latticeui"],
   "type": "module",
   "exports": {
     "./index.css": "./src/index.css",

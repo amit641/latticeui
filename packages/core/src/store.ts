@@ -6,7 +6,7 @@ export interface Store<T extends object> {
   subscribe(listener: Listener): () => void;
 }
 
-/** Minimal reactive store. The single reactivity primitive used across Tessera core. */
+/** Minimal reactive store. The single reactivity primitive used across LatticeUI core. */
 export function createStore<T extends object>(initial: T): Store<T> {
   let state = initial;
   const listeners = new Set<Listener>();

@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { badgeAnatomy } from "@tessera/core";
+import { badgeAnatomy } from "latticeui-core";
 
 export interface BadgeProps extends React.HTMLAttributes<HTMLSpanElement> {
   variant?: "subtle" | "solid" | "outline";

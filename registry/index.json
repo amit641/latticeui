@@ -69,7 +69,7 @@
     "name": "pagination",
     "displayName": "Pagination",
     "version": "0.1.0",
-    "description": "Page navigation with sibling windows and ellipsis collapsing (logic lives in @tessera/core)."
+    "description": "Page navigation with sibling windows and ellipsis collapsing (logic lives in latticeui-core)."
   },
   {
     "name": "popover",

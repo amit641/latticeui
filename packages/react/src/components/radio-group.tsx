@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { radioGroupAnatomy } from "@tessera/core";
+import { radioGroupAnatomy } from "latticeui-core";
 import { createStrictContext, useControllableState } from "../utils/hooks";
 
 interface RadioGroupContextValue {

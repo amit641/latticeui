@@ -1,4 +1,4 @@
-@layer tessera.recipes {
+@layer latticeui.recipes {
   [data-scope="separator"][data-part="root"] {
     border: none;
     background: var(--ts-border-muted);

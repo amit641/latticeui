@@ -1,6 +1,6 @@
 /*
  * Docs site chrome. Deliberately plain, UNLAYERED application CSS built on
- * Tessera tokens - it always wins over @layer tessera without specificity wars.
+ * LatticeUI tokens - it always wins over @layer latticeui without specificity wars.
  */
 * {
   box-sizing: border-box;

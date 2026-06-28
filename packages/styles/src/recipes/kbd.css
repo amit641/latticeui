@@ -1,4 +1,4 @@
-@layer tessera.recipes {
+@layer latticeui.recipes {
   [data-scope="kbd"][data-part="root"] {
     display: inline-block;
     border: 1px solid var(--ts-border-default);

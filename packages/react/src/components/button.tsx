@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { buttonAnatomy } from "@tessera/core";
+import { buttonAnatomy } from "latticeui-core";
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "solid" | "outline" | "ghost" | "danger";

@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { sliderAnatomy } from "@tessera/core";
+import { sliderAnatomy } from "latticeui-core";
 import { useControllableState } from "../utils/hooks";
 
 export interface SliderProps {

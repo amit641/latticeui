@@ -1,33 +1,33 @@
-export const metadata = { title: "Getting started - Tessera" };
+export const metadata = { title: "Getting started - LatticeUI" };
 
 export default function GettingStartedPage() {
   return (
     <>
       <h1>Getting started</h1>
       <p>
-        Tessera ships as three small packages: tokens (CSS variables), styles (zero-runtime CSS
+        LatticeUI ships as three small packages: tokens (CSS variables), styles (zero-runtime CSS
         recipes), and the React components. Three steps and you are rendering accessible UI.
       </p>
 
       <h2>1. Install</h2>
       <pre>
-        <code>{`pnpm add @tessera/react @tessera/styles @tessera/tokens`}</code>
+        <code>{`pnpm add latticeui latticeui-styles latticeui-tokens`}</code>
       </pre>
 
       <h2>2. Import the CSS once</h2>
       <p>
         Add the two stylesheets to your app entry (e.g. <code>app/layout.tsx</code> in Next.js).
-        All library styles live inside <code>@layer tessera</code>, so they can never override
+        All library styles live inside <code>@layer latticeui</code>, so they can never override
         your own CSS.
       </p>
       <pre>
-        <code>{`import "@tessera/tokens/tokens.css";
-import "@tessera/styles/index.css";`}</code>
+        <code>{`import "latticeui-tokens/tokens.css";
+import "latticeui-styles/index.css";`}</code>
       </pre>
 
       <h2>3. Use components</h2>
       <pre>
-        <code>{`import { Button, TextField, Dialog } from "@tessera/react";
+        <code>{`import { Button, TextField, Dialog } from "latticeui";
 
 export function Example() {
   return (
@@ -50,7 +50,7 @@ export function Example() {
         anywhere.
       </p>
       <pre>
-        <code>{`import { ToastProvider } from "@tessera/react";
+        <code>{`import { ToastProvider } from "latticeui";
 
 <ToastProvider>{children}</ToastProvider>`}</code>
       </pre>
@@ -67,7 +67,7 @@ export function Example() {
       <h2>Server components</h2>
       <p>
         Every component is client-ready (<code>&quot;use client&quot;</code> is baked into the
-        bundle) and the CSS has no runtime, so Tessera works out of the box with React Server
+        bundle) and the CSS has no runtime, so LatticeUI works out of the box with React Server
         Components and streaming SSR.
       </p>
 

@@ -2,7 +2,7 @@
   "name": "select",
   "displayName": "Select",
   "version": "0.1.0",
-  "import": "import { Select } from \"@tessera/react\";",
+  "import": "import { Select } from \"latticeui\";",
   "description": "Single-select listbox (combobox pattern): typeahead, disabled-item skipping, keyboard navigation, anchored positioning.",
   "anatomy": [
     {

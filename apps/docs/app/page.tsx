@@ -28,7 +28,7 @@ const answers = [
   },
   {
     title: "Zero-runtime cascade layers",
-    body: "All CSS lives in @layer tessera. Your unlayered app CSS always wins. RSC-safe by construction.",
+    body: "All CSS lives in @layer latticeui. Your unlayered app CSS always wins. RSC-safe by construction.",
     href: "/components/button",
   },
   {
@@ -38,7 +38,7 @@ const answers = [
   },
   {
     title: "Eject with an upgrade path",
-    body: "tessera add copies source into your repo; tessera update 3-way merges upstream improvements into your edits.",
+    body: "latticeui add copies source into your repo; latticeui update 3-way merges upstream improvements into your edits.",
     href: "/cli",
   },
   {
@@ -64,7 +64,7 @@ export default function HomePage() {
           <span className="accent">Composed into systems you own.</span>
         </h1>
         <p className="lead">
-          Tessera is a design system built against the failure modes of MUI, AntD, and Chakra:
+          LatticeUI is a design system built against the failure modes of MUI, AntD, and Chakra:
           28 accessible components, zero-runtime styling, a framework-agnostic core, versioned
           anatomy contracts, and an eject command that keeps an upgrade path.
         </p>
@@ -72,9 +72,9 @@ export default function HomePage() {
           <Link href="/getting-started">Get started in 3 steps →</Link>
         </p>
         <pre>
-          <code>{`import "@tessera/tokens/tokens.css";
-import "@tessera/styles/index.css";
-import { Button } from "@tessera/react";`}</code>
+          <code>{`import "latticeui-tokens/tokens.css";
+import "latticeui-styles/index.css";
+import { Button } from "latticeui";`}</code>
         </pre>
       </section>
 
@@ -88,7 +88,7 @@ import { Button } from "@tessera/react";`}</code>
         ))}
       </div>
 
-      <h2>The Tessera answer</h2>
+      <h2>The LatticeUI answer</h2>
       <div className="card-grid">
         {answers.map((answer) => (
           <Link
@@ -105,12 +105,12 @@ import { Button } from "@tessera/react";`}</code>
 
       <h2>Override anything without a fight</h2>
       <p>
-        Every Tessera rule lives inside <code>@layer tessera</code> and targets stable anatomy
+        Every LatticeUI rule lives inside <code>@layer latticeui</code> and targets stable anatomy
         attributes. This is the entire override story - no <code>!important</code>, no class-name
         spelunking, guaranteed stable across upgrades:
       </p>
       <pre>
-        <code>{`/* your plain app css - always wins, because Tessera's CSS is layered */
+        <code>{`/* your plain app css - always wins, because LatticeUI's CSS is layered */
 [data-scope="button"][data-part="root"] {
   --button-bg: rebeccapurple;
   border-radius: 0;

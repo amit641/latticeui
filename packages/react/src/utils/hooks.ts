@@ -36,7 +36,7 @@ interface Subscribable<S> {
   getState(): S;
 }
 
-/** Subscribes a React component to a Tessera core store or machine. */
+/** Subscribes a React component to a LatticeUI core store or machine. */
 export function useExternalState<S>(source: Subscribable<S>): S {
   return React.useSyncExternalStore(source.subscribe, source.getState, source.getState);
 }
@@ -58,7 +58,7 @@ export function createStrictContext<T>(name: string) {
   function useStrictContext(): T {
     const value = React.useContext(Context);
     if (value === null) {
-      throw new Error(`Tessera: ${name} parts must be rendered inside <${name}.Root>.`);
+      throw new Error(`LatticeUI: ${name} parts must be rendered inside <${name}.Root>.`);
     }
     return value;
   }

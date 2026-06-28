@@ -17,16 +17,16 @@ importers:
 
   apps/docs:
     dependencies:
-      '@tessera/core':
-        specifier: workspace:*
-        version: link:../../packages/core
-      '@tessera/react':
+      latticeui:
         specifier: workspace:*
         version: link:../../packages/react
-      '@tessera/styles':
+      latticeui-core:
+        specifier: workspace:*
+        version: link:../../packages/core
+      latticeui-styles:
         specifier: workspace:*
         version: link:../../packages/styles
-      '@tessera/tokens':
+      latticeui-tokens:
         specifier: workspace:*
         version: link:../../packages/tokens
       next:
@@ -94,7 +94,7 @@ importers:
       '@floating-ui/react-dom':
         specifier: ^2.1.2
         version: 2.1.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@tessera/core':
+      latticeui-core:
         specifier: workspace:^
         version: link:../core
     devDependencies:

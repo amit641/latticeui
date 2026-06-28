@@ -1,5 +1,5 @@
 /**
- * Builds the component registry consumed by @tessera/cli.
+ * Builds the component registry consumed by latticeui-cli.
  *
  * For each component we package:
  *   - the React source (packages/react/src/components/<name>.tsx)
@@ -49,7 +49,7 @@ for (const name of names) {
     displayName: manifest.displayName,
     version: manifest.version,
     description: manifest.description,
-    dependencies: ["@tessera/core", "@tessera/tokens"],
+    dependencies: ["latticeui-core", "latticeui-tokens"],
     files,
   };
   writeFileSync(join(outDir, "components", `${name}.json`), JSON.stringify(entry, null, 2));

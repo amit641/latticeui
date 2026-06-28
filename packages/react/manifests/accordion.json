@@ -2,7 +2,7 @@
   "name": "accordion",
   "displayName": "Accordion",
   "version": "0.1.0",
-  "import": "import { Accordion } from \"@tessera/react\";",
+  "import": "import { Accordion } from \"latticeui\";",
   "description": "Disclosure list with single or multiple open items.",
   "anatomy": [
     {

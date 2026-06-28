@@ -121,7 +121,7 @@ export default function ComponentPage({ params }: { params: { slug: string } }) 
       <h2>Styling</h2>
       <p>
         Override styles by targeting the stable selectors below from any unlayered CSS - it always
-        beats the library&apos;s <code>@layer tessera</code> styles, no <code>!important</code>{" "}
+        beats the library&apos;s <code>@layer latticeui</code> styles, no <code>!important</code>{" "}
         needed.
       </p>
       <pre>

@@ -1,11 +1,11 @@
-export const metadata = { title: "Theming - Tessera" };
+export const metadata = { title: "Theming - LatticeUI" };
 
 export default function ThemingPage() {
   return (
     <>
       <h1>Theming</h1>
       <p>
-        Tessera is themed entirely through CSS custom properties compiled from W3C design tokens.
+        LatticeUI is themed entirely through CSS custom properties compiled from W3C design tokens.
         There is no theme object, no provider, and no runtime cost - overriding a theme is just
         CSS.
       </p>
@@ -50,7 +50,7 @@ export default function ThemingPage() {
       <h2>Restyle a single component</h2>
       <p>
         Components expose stable <code>data-scope</code>/<code>data-part</code> attributes - a
-        versioned styling API. Because all library CSS sits in <code>@layer tessera</code>, your
+        versioned styling API. Because all library CSS sits in <code>@layer latticeui</code>, your
         unlayered CSS always wins. No specificity wars, no <code>!important</code>:
       </p>
       <pre>
@@ -79,7 +79,7 @@ export default function ThemingPage() {
 
       <h2>Build your own token set</h2>
       <p>
-        The source of truth is W3C design-token JSON in <code>@tessera/tokens</code>. Fork the
+        The source of truth is W3C design-token JSON in <code>latticeui-tokens</code>. Fork the
         JSON, run the build script, and you get a complete <code>tokens.css</code> plus typed
         TypeScript maps for your own brand.
       </p>

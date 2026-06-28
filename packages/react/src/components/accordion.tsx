@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { accordionAnatomy } from "@tessera/core";
+import { accordionAnatomy } from "latticeui-core";
 import { createStrictContext, useControllableState } from "../utils/hooks";
 import { ChevronDownIcon } from "../utils/icons";
 

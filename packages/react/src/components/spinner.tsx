@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { spinnerAnatomy } from "@tessera/core";
+import { spinnerAnatomy } from "latticeui-core";
 
 export interface SpinnerProps extends React.HTMLAttributes<HTMLSpanElement> {
   size?: "sm" | "md" | "lg";

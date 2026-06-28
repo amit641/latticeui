@@ -1,22 +1,22 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import "@tessera/tokens/tokens.css";
-import "@tessera/styles/index.css";
+import "latticeui-tokens/tokens.css";
+import "latticeui-styles/index.css";
 import "./globals.css";
-import { ToastProvider } from "@tessera/react";
+import { ToastProvider } from "latticeui";
 import { Logo } from "../components/Logo";
 import { ThemeSwitcher } from "../components/ThemeSwitcher";
 import { categoryLabels, groupedComponentSlugs } from "../lib/manifests";
 
 export const metadata: Metadata = {
-  title: "Tessera - composable design system",
+  title: "LatticeUI - composable design system",
   description:
     "Token-first, zero-runtime-CSS design system with a framework-agnostic core and an eject-with-upgrade-path CLI.",
 };
 
 const themeInit = `
 try {
-  var t = localStorage.getItem("tessera-theme");
+  var t = localStorage.getItem("latticeui-theme");
   if (t) document.documentElement.dataset.theme = t;
 } catch (e) {}
 `;
@@ -32,7 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <header className="site-header">
             <Link href="/" className="brand">
               <Logo />
-              tessera
+              latticeui
             </Link>
             <nav>
               <Link href="/tokens">Tokens</Link>
@@ -45,7 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="layout">
             <aside className="sidebar">
               <div className="group">Overview</div>
-              <Link href="/">Why Tessera</Link>
+              <Link href="/">Why LatticeUI</Link>
               <Link href="/getting-started">Getting started</Link>
               <Link href="/theming">Theming</Link>
               <Link href="/tokens">Token explorer</Link>

@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { skeletonAnatomy } from "@tessera/core";
+import { skeletonAnatomy } from "latticeui-core";
 
 export interface SkeletonProps extends React.HTMLAttributes<HTMLDivElement> {
   variant?: "rect" | "text" | "circle";

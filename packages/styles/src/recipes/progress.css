@@ -1,4 +1,4 @@
-@layer tessera.recipes {
+@layer latticeui.recipes {
   [data-scope="progress"][data-part="root"] {
     display: flex;
     flex-direction: column;
@@ -39,10 +39,10 @@
 
   [data-scope="progress"][data-part="root"][data-indeterminate] [data-part="fill"] {
     width: 40%;
-    animation: tessera-progress-slide 1.2s var(--ts-easing-standard) infinite;
+    animation: latticeui-progress-slide 1.2s var(--ts-easing-standard) infinite;
   }
 
-  @keyframes tessera-progress-slide {
+  @keyframes latticeui-progress-slide {
     from {
       transform: translateX(-100%);
     }

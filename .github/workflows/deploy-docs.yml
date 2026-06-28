@@ -20,8 +20,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Served from https://<user>.github.io/tessera
-      NEXT_PUBLIC_BASE_PATH: /tessera
+      # Served from https://<user>.github.io/latticeui
+      NEXT_PUBLIC_BASE_PATH: /latticeui
     steps:
       - name: Checkout
         uses: actions/checkout@v7

@@ -16,16 +16,16 @@ const manifests = readdirSync(manifestsDir)
   .map((file) => JSON.parse(readFileSync(join(manifestsDir, file), "utf8")));
 
 const lines = [];
-lines.push("# Tessera Design System");
+lines.push("# LatticeUI Design System");
 lines.push("");
-lines.push("> Tessera is a token-first, zero-runtime-CSS design system with a framework-agnostic");
+lines.push("> LatticeUI is a token-first, zero-runtime-CSS design system with a framework-agnostic");
 lines.push("> core. Styling targets stable [data-scope][data-part] anatomy attributes (a versioned");
-lines.push("> public API). All CSS lives in `@layer tessera`, so plain application CSS always wins.");
+lines.push("> public API). All CSS lives in `@layer latticeui`, so plain application CSS always wins.");
 lines.push("");
 lines.push("Setup:");
 lines.push("```tsx");
-lines.push('import "@tessera/tokens/tokens.css";');
-lines.push('import "@tessera/styles/index.css";');
+lines.push('import "latticeui-tokens/tokens.css";');
+lines.push('import "latticeui-styles/index.css";');
 lines.push("// Theming: <html data-theme=\"dark\"> or \"light\". Dark is the default.");
 lines.push("```");
 lines.push("");

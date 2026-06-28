@@ -2,7 +2,7 @@
   "name": "switch",
   "displayName": "Switch",
   "version": "0.1.0",
-  "import": "import { Switch } from \"@tessera/react\";",
+  "import": "import { Switch } from \"latticeui\";",
   "description": "On/off toggle backed by a native role=switch input.",
   "anatomy": [
     {

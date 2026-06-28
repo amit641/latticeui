@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { createToastGroup, toastAnatomy, type ToastGroup, type ToastOptions } from "@tessera/core";
+import { createToastGroup, toastAnatomy, type ToastGroup, type ToastOptions } from "latticeui-core";
 import { createStrictContext, useExternalState } from "../utils/hooks";
 import { Portal } from "../utils/portal";
 import { CloseIcon } from "../utils/icons";

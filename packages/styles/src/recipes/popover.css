@@ -1,4 +1,4 @@
-@layer tessera.recipes {
+@layer latticeui.recipes {
   [data-scope="popover"][data-part="positioner"] {
     z-index: var(--ts-z-popover);
   }
@@ -16,7 +16,7 @@
     box-shadow: var(--ts-shadow-md);
     padding: var(--ts-space-4);
     font-size: var(--ts-font-size-sm);
-    animation: tessera-pop-in var(--ts-duration-fast) var(--ts-easing-enter);
+    animation: latticeui-pop-in var(--ts-duration-fast) var(--ts-easing-enter);
   }
 
   [data-scope="popover"][data-part="title"] {

@@ -1,5 +1,5 @@
 {
-  "name": "tessera-monorepo",
+  "name": "latticeui-monorepo",
   "private": true,
   "scripts": {
     "build": "turbo run build",

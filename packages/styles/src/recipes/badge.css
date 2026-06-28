@@ -1,4 +1,4 @@
-@layer tessera.recipes {
+@layer latticeui.recipes {
   [data-scope="badge"][data-part="root"] {
     --badge-bg: var(--ts-accent-subtle);
     --badge-fg: var(--ts-accent-fg);

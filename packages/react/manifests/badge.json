@@ -3,7 +3,7 @@
   "displayName": "Badge",
   "version": "0.1.0",
   "category": "data-display",
-  "import": "import { Badge } from \"@tessera/react\";",
+  "import": "import { Badge } from \"latticeui\";",
   "description": "Compact status label with tone and variant axes.",
   "anatomy": [
     {

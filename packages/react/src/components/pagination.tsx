@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { paginationAnatomy, paginationRange } from "@tessera/core";
+import { paginationAnatomy, paginationRange } from "latticeui-core";
 import { useControllableState } from "../utils/hooks";
 
 export interface PaginationProps {
