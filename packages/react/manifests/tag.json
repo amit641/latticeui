@@ -3,7 +3,7 @@
   "displayName": "Tag",
   "version": "0.1.0",
   "category": "data-display",
-  "import": "import { Tag } from \"latticeui\";",
+  "import": "import { Tag } from \"latticeui-react\";",
   "description": "Chip for filters and selections, optionally dismissible.",
   "anatomy": [
     {

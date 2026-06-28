@@ -3,7 +3,7 @@
   "displayName": "Table",
   "version": "0.1.0",
   "category": "data-display",
-  "import": "import { Table } from \"latticeui\";",
+  "import": "import { Table } from \"latticeui-react\";",
   "description": "Composable data table: Root (scroll container), Header, Body, Row, Head, Cell, Caption.",
   "anatomy": [
     {

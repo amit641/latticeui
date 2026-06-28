@@ -17,7 +17,7 @@ Components (28):
 
 Disclosure list with single or multiple open items.
 
-Import: `import { Accordion } from "latticeui";`
+Import: `import { Accordion } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root, item, header, trigger, indicator, content
 
@@ -45,7 +45,7 @@ Example:
 
 Inline callout for contextual feedback; danger/warning announce assertively via role=alert.
 
-Import: `import { Alert } from "latticeui";`
+Import: `import { Alert } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root, icon, title, description
 
@@ -64,7 +64,7 @@ Example:
 
 Image avatar with automatic initials fallback when the image is missing or fails to load.
 
-Import: `import { Avatar } from "latticeui";`
+Import: `import { Avatar } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root, image, fallback
 
@@ -82,7 +82,7 @@ Example:
 
 Compact status label with tone and variant axes.
 
-Import: `import { Badge } from "latticeui";`
+Import: `import { Badge } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root
 
@@ -99,7 +99,7 @@ Example:
 
 Navigation trail; the last item is marked aria-current=page automatically.
 
-Import: `import { Breadcrumb } from "latticeui";`
+Import: `import { Breadcrumb } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root, list, item, link, separator
 
@@ -116,7 +116,7 @@ Example:
 
 Action button with variants, sizes, and a loading state that preserves width and sets aria-busy.
 
-Import: `import { Button } from "latticeui";`
+Import: `import { Button } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root, spinner, label
 
@@ -138,7 +138,7 @@ Example:
 
 Composable surface: Root, Header, Title, Description, Content, Footer parts.
 
-Import: `import { Card } from "latticeui";`
+Import: `import { Card } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root, header, title, description, content, footer
 
@@ -161,7 +161,7 @@ Example:
 
 Checkbox built on a visually-hidden native input: native form submission and accessibility for free.
 
-Import: `import { Checkbox } from "latticeui";`
+Import: `import { Checkbox } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root, control, indicator, label
 
@@ -185,7 +185,7 @@ Example:
 
 Modal dialog driven by a core state machine; focus trap, scroll lock, Escape and backdrop dismissal handled automatically.
 
-Import: `import { Dialog, useDialog } from "latticeui";`
+Import: `import { Dialog, useDialog } from "latticeui-react";`
 
 Anatomy parts (stable selectors): trigger, backdrop, positioner, content, title, description, close
 
@@ -214,7 +214,7 @@ Example:
 
 Keyboard key cap for shortcuts in docs and menus.
 
-Import: `import { Kbd } from "latticeui";`
+Import: `import { Kbd } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root
 
@@ -230,7 +230,7 @@ Example:
 
 Dropdown action menu (WAI-ARIA menu pattern): roving focus, Home/End, Escape, outside-click dismissal.
 
-Import: `import { Menu } from "latticeui";`
+Import: `import { Menu } from "latticeui-react";`
 
 Anatomy parts (stable selectors): trigger, positioner, content, item, separator, groupLabel
 
@@ -262,7 +262,7 @@ Example:
 
 Page navigation with sibling windows and ellipsis collapsing (logic lives in latticeui-core).
 
-Import: `import { Pagination } from "latticeui";`
+Import: `import { Pagination } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root, list, item, ellipsis, prev, next
 
@@ -281,7 +281,7 @@ Example:
 
 Non-modal floating panel anchored to its trigger (floating-ui positioning with flip/shift).
 
-Import: `import { Popover } from "latticeui";`
+Import: `import { Popover } from "latticeui-react";`
 
 Anatomy parts (stable selectors): trigger, positioner, content, title, arrow, close
 
@@ -308,7 +308,7 @@ Example:
 
 Determinate or indeterminate progress bar with full progressbar semantics.
 
-Import: `import { Progress } from "latticeui";`
+Import: `import { Progress } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root, label, valueText, track, fill
 
@@ -327,7 +327,7 @@ Example:
 
 Compound radio group built on native radio inputs (arrow-key navigation comes from the browser).
 
-Import: `import { RadioGroup } from "latticeui";`
+Import: `import { RadioGroup } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root, label, item, control, indicator, itemLabel
 
@@ -355,7 +355,7 @@ Example:
 
 Single-select listbox (combobox pattern): typeahead, disabled-item skipping, keyboard navigation, anchored positioning.
 
-Import: `import { Select } from "latticeui";`
+Import: `import { Select } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root, label, trigger, value, indicator, positioner, content, item, itemText, itemIndicator
 
@@ -383,7 +383,7 @@ Example:
 
 Horizontal or vertical rule with proper separator semantics.
 
-Import: `import { Separator } from "latticeui";`
+Import: `import { Separator } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root
 
@@ -400,7 +400,7 @@ Example:
 
 Loading placeholder with text/circle/rect variants and reduced-motion support.
 
-Import: `import { Skeleton } from "latticeui";`
+Import: `import { Skeleton } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root
 
@@ -417,7 +417,7 @@ Example:
 
 Single-value slider on a native range input: browser-grade keyboard, touch, and a11y.
 
-Import: `import { Slider } from "latticeui";`
+Import: `import { Slider } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root, label, valueText, control
 
@@ -441,7 +441,7 @@ Example:
 
 Indeterminate loading indicator with an accessible label.
 
-Import: `import { Spinner } from "latticeui";`
+Import: `import { Spinner } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root
 
@@ -458,7 +458,7 @@ Example:
 
 On/off toggle backed by a native role=switch input.
 
-Import: `import { Switch } from "latticeui";`
+Import: `import { Switch } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root, control, thumb, label
 
@@ -482,7 +482,7 @@ Example:
 
 Composable data table: Root (scroll container), Header, Body, Row, Head, Cell, Caption.
 
-Import: `import { Table } from "latticeui";`
+Import: `import { Table } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root, table, caption, header, body, row, head, cell
 
@@ -506,7 +506,7 @@ Example:
 
 WAI-ARIA tabs with roving focus and automatic activation.
 
-Import: `import { Tabs } from "latticeui";`
+Import: `import { Tabs } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root, list, trigger, content
 
@@ -536,7 +536,7 @@ Example:
 
 Chip for filters and selections, optionally dismissible.
 
-Import: `import { Tag } from "latticeui";`
+Import: `import { Tag } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root, label, close
 
@@ -556,7 +556,7 @@ Example:
 
 Labeled text input with description and error messaging, all wired with aria-describedby automatically.
 
-Import: `import { TextField } from "latticeui";`
+Import: `import { TextField } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root, label, input, description, error
 
@@ -575,7 +575,7 @@ Example:
 
 Multi-line text input with label, description, and error wiring (mirrors TextField).
 
-Import: `import { Textarea } from "latticeui";`
+Import: `import { Textarea } from "latticeui-react";`
 
 Anatomy parts (stable selectors): root, label, input, description, error
 
@@ -594,7 +594,7 @@ Example:
 
 Imperative notifications backed by a framework-agnostic queue with auto-dismiss, hover pause/resume, and a visible-toast cap.
 
-Import: `import { ToastProvider, useToast } from "latticeui";`
+Import: `import { ToastProvider, useToast } from "latticeui-react";`
 
 Anatomy parts (stable selectors): viewport, root, title, description, close
 
@@ -614,7 +614,7 @@ toast({ title: "Saved", type: "success" });
 
 Hover/focus tooltip with hover-intent delays driven by a four-state core machine (no flicker on quick re-entry).
 
-Import: `import { Tooltip } from "latticeui";`
+Import: `import { Tooltip } from "latticeui-react";`
 
 Anatomy parts (stable selectors): trigger, positioner, content, arrow
 

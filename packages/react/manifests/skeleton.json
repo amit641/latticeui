@@ -3,7 +3,7 @@
   "displayName": "Skeleton",
   "version": "0.1.0",
   "category": "feedback",
-  "import": "import { Skeleton } from \"latticeui\";",
+  "import": "import { Skeleton } from \"latticeui-react\";",
   "description": "Loading placeholder with text/circle/rect variants and reduced-motion support.",
   "anatomy": [
     {

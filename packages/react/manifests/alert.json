@@ -3,7 +3,7 @@
   "displayName": "Alert",
   "version": "0.1.0",
   "category": "feedback",
-  "import": "import { Alert } from \"latticeui\";",
+  "import": "import { Alert } from \"latticeui-react\";",
   "description": "Inline callout for contextual feedback; danger/warning announce assertively via role=alert.",
   "anatomy": [
     {

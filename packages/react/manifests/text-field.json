@@ -2,7 +2,7 @@
   "name": "text-field",
   "displayName": "TextField",
   "version": "0.1.0",
-  "import": "import { TextField } from \"latticeui\";",
+  "import": "import { TextField } from \"latticeui-react\";",
   "description": "Labeled text input with description and error messaging, all wired with aria-describedby automatically.",
   "anatomy": [
     {

@@ -3,7 +3,7 @@
   "displayName": "Separator",
   "version": "0.1.0",
   "category": "data-display",
-  "import": "import { Separator } from \"latticeui\";",
+  "import": "import { Separator } from \"latticeui-react\";",
   "description": "Horizontal or vertical rule with proper separator semantics.",
   "anatomy": [
     {

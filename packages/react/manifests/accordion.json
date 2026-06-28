@@ -2,7 +2,7 @@
   "name": "accordion",
   "displayName": "Accordion",
   "version": "0.1.0",
-  "import": "import { Accordion } from \"latticeui\";",
+  "import": "import { Accordion } from \"latticeui-react\";",
   "description": "Disclosure list with single or multiple open items.",
   "anatomy": [
     {

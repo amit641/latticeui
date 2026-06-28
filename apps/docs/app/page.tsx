@@ -74,7 +74,7 @@ export default function HomePage() {
         <pre>
           <code>{`import "latticeui-tokens/tokens.css";
 import "latticeui-styles/index.css";
-import { Button } from "latticeui";`}</code>
+import { Button } from "latticeui-react";`}</code>
         </pre>
       </section>
 

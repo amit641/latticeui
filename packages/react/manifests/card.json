@@ -3,7 +3,7 @@
   "displayName": "Card",
   "version": "0.1.0",
   "category": "data-display",
-  "import": "import { Card } from \"latticeui\";",
+  "import": "import { Card } from \"latticeui-react\";",
   "description": "Composable surface: Root, Header, Title, Description, Content, Footer parts.",
   "anatomy": [
     {

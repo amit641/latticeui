@@ -3,7 +3,7 @@
   "displayName": "Slider",
   "version": "0.1.0",
   "category": "forms",
-  "import": "import { Slider } from \"latticeui\";",
+  "import": "import { Slider } from \"latticeui-react\";",
   "description": "Single-value slider on a native range input: browser-grade keyboard, touch, and a11y.",
   "anatomy": [
     {

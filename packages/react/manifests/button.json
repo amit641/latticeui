@@ -2,7 +2,7 @@
   "name": "button",
   "displayName": "Button",
   "version": "0.1.0",
-  "import": "import { Button } from \"latticeui\";",
+  "import": "import { Button } from \"latticeui-react\";",
   "description": "Action button with variants, sizes, and a loading state that preserves width and sets aria-busy.",
   "anatomy": [
     {

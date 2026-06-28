@@ -2,7 +2,7 @@
   "name": "dialog",
   "displayName": "Dialog",
   "version": "0.1.0",
-  "import": "import { Dialog, useDialog } from \"latticeui\";",
+  "import": "import { Dialog, useDialog } from \"latticeui-react\";",
   "description": "Modal dialog driven by a core state machine; focus trap, scroll lock, Escape and backdrop dismissal handled automatically.",
   "anatomy": [
     {

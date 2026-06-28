@@ -11,7 +11,7 @@ export default function GettingStartedPage() {
 
       <h2>1. Install</h2>
       <pre>
-        <code>{`pnpm add latticeui latticeui-styles latticeui-tokens`}</code>
+        <code>{`pnpm add latticeui-react latticeui-styles latticeui-tokens`}</code>
       </pre>
 
       <h2>2. Import the CSS once</h2>
@@ -27,7 +27,7 @@ import "latticeui-styles/index.css";`}</code>
 
       <h2>3. Use components</h2>
       <pre>
-        <code>{`import { Button, TextField, Dialog } from "latticeui";
+        <code>{`import { Button, TextField, Dialog } from "latticeui-react";
 
 export function Example() {
   return (
@@ -50,7 +50,7 @@ export function Example() {
         anywhere.
       </p>
       <pre>
-        <code>{`import { ToastProvider } from "latticeui";
+        <code>{`import { ToastProvider } from "latticeui-react";
 
 <ToastProvider>{children}</ToastProvider>`}</code>
       </pre>

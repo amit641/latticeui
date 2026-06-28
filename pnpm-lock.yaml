@@ -17,12 +17,12 @@ importers:
 
   apps/docs:
     dependencies:
-      latticeui:
-        specifier: workspace:*
-        version: link:../../packages/react
       latticeui-core:
         specifier: workspace:*
         version: link:../../packages/core
+      latticeui-react:
+        specifier: workspace:*
+        version: link:../../packages/react
       latticeui-styles:
         specifier: workspace:*
         version: link:../../packages/styles

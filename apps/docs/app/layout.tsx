@@ -3,7 +3,7 @@ import Link from "next/link";
 import "latticeui-tokens/tokens.css";
 import "latticeui-styles/index.css";
 import "./globals.css";
-import { ToastProvider } from "latticeui";
+import { ToastProvider } from "latticeui-react";
 import { Logo } from "../components/Logo";
 import { ThemeSwitcher } from "../components/ThemeSwitcher";
 import { categoryLabels, groupedComponentSlugs } from "../lib/manifests";

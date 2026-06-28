@@ -2,7 +2,7 @@
   "name": "popover",
   "displayName": "Popover",
   "version": "0.1.0",
-  "import": "import { Popover } from \"latticeui\";",
+  "import": "import { Popover } from \"latticeui-react\";",
   "description": "Non-modal floating panel anchored to its trigger (floating-ui positioning with flip/shift).",
   "anatomy": [
     {

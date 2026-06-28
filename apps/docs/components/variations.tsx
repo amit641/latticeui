@@ -29,7 +29,7 @@ import {
   Textarea,
   Tooltip,
   useToast,
-} from "latticeui";
+} from "latticeui-react";
 
 interface Variation {
   title: string;

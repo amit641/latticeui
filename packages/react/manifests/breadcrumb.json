@@ -3,7 +3,7 @@
   "displayName": "Breadcrumb",
   "version": "0.1.0",
   "category": "navigation",
-  "import": "import { Breadcrumb } from \"latticeui\";",
+  "import": "import { Breadcrumb } from \"latticeui-react\";",
   "description": "Navigation trail; the last item is marked aria-current=page automatically.",
   "anatomy": [
     {

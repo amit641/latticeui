@@ -2,7 +2,7 @@
   "name": "switch",
   "displayName": "Switch",
   "version": "0.1.0",
-  "import": "import { Switch } from \"latticeui\";",
+  "import": "import { Switch } from \"latticeui-react\";",
   "description": "On/off toggle backed by a native role=switch input.",
   "anatomy": [
     {

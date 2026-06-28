@@ -3,7 +3,7 @@
   "displayName": "Textarea",
   "version": "0.1.0",
   "category": "forms",
-  "import": "import { Textarea } from \"latticeui\";",
+  "import": "import { Textarea } from \"latticeui-react\";",
   "description": "Multi-line text input with label, description, and error wiring (mirrors TextField).",
   "anatomy": [
     {

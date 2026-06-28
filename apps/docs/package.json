@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "latticeui-core": "workspace:*",
-    "latticeui": "workspace:*",
+    "latticeui-react": "workspace:*",
     "latticeui-styles": "workspace:*",
     "latticeui-tokens": "workspace:*",
     "next": "^14.2.20",

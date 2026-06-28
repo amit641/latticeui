@@ -3,7 +3,7 @@
   "displayName": "Progress",
   "version": "0.1.0",
   "category": "feedback",
-  "import": "import { Progress } from \"latticeui\";",
+  "import": "import { Progress } from \"latticeui-react\";",
   "description": "Determinate or indeterminate progress bar with full progressbar semantics.",
   "anatomy": [
     {

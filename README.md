@@ -46,7 +46,7 @@ latticeui/
 ## Install
 
 ```bash
-npm install latticeui latticeui-styles latticeui-tokens
+npm install latticeui-react latticeui-styles latticeui-tokens
 # or: pnpm add / yarn add
 ```
 
@@ -55,7 +55,7 @@ Using the components:
 ```tsx
 import "latticeui-tokens/tokens.css";
 import "latticeui-styles/index.css";
-import { Button, Dialog } from "latticeui";
+import { Button, Dialog } from "latticeui-react";
 
 // Theming: <html data-theme="dark"> (default) or "light".
 ```

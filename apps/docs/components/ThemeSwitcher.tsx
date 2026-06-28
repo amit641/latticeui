@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { Switch } from "latticeui";
+import { Switch } from "latticeui-react";
 
 export function ThemeSwitcher() {
   const [light, setLight] = React.useState(false);
